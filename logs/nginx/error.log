@@ -1,0 +1,154 @@
+2021/11/04 06:32:25 [error] 32#32: *1 "/usr/share/nginx/html/tutorial/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /tutorial/ HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 06:32:28 [error] 32#32: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 07:37:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 07:37:23 [crit] 32#32: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2021/11/04 07:37:23 [crit] 32#32: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "127.0.0.1"
+2021/11/04 07:37:23 [crit] 32#32: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/11/04 07:37:23 [crit] 32#32: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/11/04 07:37:25 [crit] 32#32: *4 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2021/11/04 07:37:25 [crit] 32#32: *4 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "127.0.0.1"
+2021/11/04 07:41:13 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:09:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:10:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:10:54 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/11/04 08:13:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:13:39 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/11/04 08:15:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:15:53 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/11/04 08:16:22 [crit] 32#32: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2021/11/04 08:16:22 [crit] 32#32: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:16:22 [crit] 32#32: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2021/11/04 08:16:22 [crit] 32#32: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/index.html"
+2021/11/04 08:24:02 [warn] 90#90: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:24:02 [warn] 90#90: conflicting server name "localhost" on [::]:80, ignored
+2021/11/04 08:24:02 [emerg] 90#90: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:24:02 [emerg] 90#90: still could not bind()
+2021/11/04 08:28:26 [warn] 200#200: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/11/04 08:28:26 [warn] 200#200: conflicting server name "localhost" on [::]:80, ignored
+2021/11/04 08:31:38 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /tutorial/ HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 08:31:38 [crit] 24#24: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /tutorial/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/"
+2021/11/04 08:31:38 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/tutorial/"
+2021/11/04 08:31:38 [crit] 24#24: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/tutorial/"
+2021/11/04 08:31:47 [crit] 24#24: *4 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2021/11/04 08:31:47 [crit] 24#24: *4 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:31:47 [crit] 24#24: *4 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2021/11/04 08:31:47 [crit] 24#24: *4 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/index.html"
+2021/11/04 08:31:53 [crit] 24#24: *4 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 08:31:53 [crit] 24#24: *4 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:32:55 [emerg] 38#38: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2021/11/04 08:32:55 [emerg] 38#38: bind() to [::]:80 failed (98: Address already in use)
+2021/11/04 08:35:09 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 08:35:09 [crit] 22#22: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:35:09 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:35:09 [crit] 22#22: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:35:12 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 08:35:12 [crit] 22#22: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:43:49 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 08:43:49 [crit] 24#24: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:43:49 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:43:49 [crit] 24#24: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:44:56 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 08:44:56 [crit] 22#22: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost"
+2021/11/04 08:44:56 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:44:56 [crit] 22#22: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 08:56:58 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:56:59 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:01 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:03 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:05 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:08 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:13 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:21 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:57:35 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:58:02 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:58:55 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 08:59:56 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/nginx.conf:76
+2021/11/04 09:00:35 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 09:00:35 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:00:35 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/11/04 09:00:35 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:00:35 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 09:00:35 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost", referrer: "http://localhost/index"
+2021/11/04 09:00:38 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:00:38 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:00:43 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:00:43 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:38:54 [crit] 24#24: *8 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:38:54 [error] 24#24: *8 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:38:55 [crit] 24#24: *10 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:38:55 [error] 24#24: *10 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:38:55 [crit] 24#24: *10 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:38:55 [error] 24#24: *10 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:39:13 [crit] 24#24: *10 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:39:13 [error] 24#24: *10 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:43:13 [crit] 24#24: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:43:13 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:43:14 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:43:14 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:43:14 [crit] 24#24: *3 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:14 [error] 24#24: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:14 [crit] 24#24: *6 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:43:14 [error] 24#24: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:43:14 [crit] 24#24: *6 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:14 [error] 24#24: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:15 [crit] 24#24: *9 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:43:15 [error] 24#24: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:43:15 [crit] 24#24: *9 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:15 [error] 24#24: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2021/11/04 09:43:17 [crit] 24#24: *9 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:43:17 [error] 24#24: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:44:00 [crit] 24#24: *9 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /tutorial/ HTTP/1.1", host: "localhost"
+2021/11/04 09:44:00 [error] 24#24: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /tutorial/ HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:54:51 [crit] 24#24: *14 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:54:51 [error] 24#24: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:55:05 [crit] 24#24: *14 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:55:05 [error] 24#24: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 09:55:05 [crit] 24#24: *14 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 09:55:05 [error] 24#24: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/04 10:03:54 [crit] 22#22: *1 realpath() "/var/www/dom/public" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/04 10:03:54 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "localhost"
+2021/11/05 07:57:39 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:40 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:42 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:44 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:46 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:50 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:57:54 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:58:02 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:58:16 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:58:43 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/05 07:59:36 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:76
+2021/11/10 14:53:37 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:38 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:39 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:40 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:42 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:44 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:47 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:53:54 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:08 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:19 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:20 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:21 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:22 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:23 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:25 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:29 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:36 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:54:49 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/11/10 14:55:15 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
